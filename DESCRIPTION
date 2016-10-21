@@ -1,0 +1,23 @@
+Package: test.opencpu
+Type: Package
+Title: test.opencpu - To test opencpu
+Version: 0.1.0
+Date: 2016-10-21
+Authors@R: c(person("ChingChuan", "Chen", , "zw12356@gmail.com", c("aut", "cre")))
+Author: ChingChuan Chen [aut, cre]
+Maintainer: ChingChuan Chen <zw12356@gmail.com>
+URL: https://github.com/Chingchuan-chen/test.opencpu
+BugReports: https://github.com/Chingchuan-chen/test.opencpu/issues
+Description: Package to test opencpu.
+Depends:
+    R (>= 3.2.0)
+Imports:
+    pipeR (>= 0.6),
+    data.table (>= 1.9.6),
+    jsonlite
+LazyData: yes
+License: GPL (>=2)
+Collate:
+    'testopencpu.R'
+    'main.R'
+RoxygenNote: 5.0.1
